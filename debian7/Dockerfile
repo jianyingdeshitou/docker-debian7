@@ -13,3 +13,5 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 # 更新
 RUN apt-get update && apt-get upgrade -y
 
+RUN apt-get install -y curl 
+
